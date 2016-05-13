@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_poster"
+    tools:context="com.example.rishavz_sagar.application.Reminder">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:textColor="#ffff"
+        android:id="@+id/message"
+        android:inputType="textMultiLine"
+        android:minLines="10"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"/>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/picker"
+            android:textColor="#ffff"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#40ffffff"
+            android:text="Pick a date"/>
+        <Button
+            android:textColor="#ffff"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:background="#40ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tpi"
+            android:text="Select Time"/>
+        <Button
+            android:textColor="#ffff"
+            android:paddingLeft="5dp"
+            android:id="@+id/reminder"
+            android:paddingRight="5dp"
+            android:background="#40ffffff"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="Set As Reminder"/>
+
+    </LinearLayout>
+</LinearLayout>
