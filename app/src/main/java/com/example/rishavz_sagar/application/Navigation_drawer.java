@@ -101,8 +101,9 @@ public class Navigation_drawer extends Fragment {
         });
 
         ArrayList<IconItem> itemList = new ArrayList<IconItem>();
-        itemList.add(new IconItem(R.drawable.reminder,"Set a reminder"));
-
+        itemList.add(new IconItem(R.drawable.events,"Set a reminder"));
+        itemList.add(new IconItem(R.drawable.download,"Download an Image"));
+        itemList.add(new IconItem(R.drawable.arthashastra,"Chats"));
         mDrawerListView.setAdapter(new IconAdapter(getActionBar().getThemedContext(), R.layout.menu_item, itemList));
 
         mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);

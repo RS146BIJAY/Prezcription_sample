@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_poster"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activities.ImageActivity">
+
+    <ImageView
+        android:id="@+id/imgResult"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop" />
+
+    <ProgressBar
+        android:id="@+id/pbImageLoading"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:visibility="invisible"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:indeterminate="true"
+        android:layout_marginLeft="69dp"
+        android:layout_marginStart="69dp"
+        android:layout_centerVertical="true"
+        />
+
+
+
+    <Button
+        android:alpha="0.40"
+        android:id="@+id/bt1"
+        android:paddingLeft="10dp"
+        android:text="Download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bt_back"
+        android:layout_toRightOf="@+id/imgResult"
+        android:layout_toEndOf="@+id/imgResult" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activities.ImageActivity">
+
+        <ImageView
+            android:id="@+id/imgResult1"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop" />
+
+        <ProgressBar
+            android:id="@+id/pbImageLoading1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="70dp"
+            android:visibility="invisible"
+            android:layout_height="70dp"
+            android:indeterminate="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="69dp"
+            android:layout_marginStart="69dp" />
+
+        <Button
+            android:alpha="0.40"
+            android:text="Download"
+            android:id="@+id/bt2"
+            android:paddingLeft="10dp"
+            android:background="@drawable/bt_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgResult1"
+            android:layout_toEndOf="@+id/imgResult1" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activities.ImageActivity">
+
+        <ImageView
+            android:id="@+id/imgResult2"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop" />
+
+        <ProgressBar
+            android:id="@+id/pbImageLoading2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="69dp"
+            android:layout_marginStart="69dp" />
+        <Button
+            android:alpha="0.40"
+            android:id="@+id/bt3"
+            android:background="@drawable/bt_back"
+            android:paddingLeft="10dp"
+            android:text="Download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgResult2"
+            android:layout_toEndOf="@+id/imgResult2" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activities.ImageActivity">
+
+        <ImageView
+            android:id="@+id/imgResult3"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop" />
+
+        <ProgressBar
+            android:id="@+id/pbImageLoading3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="70dp"
+            android:visibility="invisible"
+            android:layout_height="70dp"
+            android:indeterminate="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="69dp"
+            android:layout_marginStart="69dp" />
+        <Button
+            android:alpha="0.40"
+            android:id="@+id/bt4"
+            android:text="Download"
+            android:background="@drawable/bt_back"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgResult3"
+            android:layout_toEndOf="@+id/imgResult3" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activities.ImageActivity">
+
+        <ImageView
+            android:id="@+id/imgResult4"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop" />
+
+        <ProgressBar
+            android:id="@+id/pbImageLoading4"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="69dp"
+            android:layout_marginStart="69dp" />
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/bt_back"
+            android:paddingLeft="10dp"
+            android:alpha="0.40"
+            android:text="Download"
+            android:layout_toRightOf="@+id/imgResult4"
+            android:layout_toEndOf="@+id/imgResult4" />
+
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>
